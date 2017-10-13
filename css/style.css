@@ -15,7 +15,10 @@ body {
   color: #fff;
 }
 
-
+.logo img{
+  width: auto;
+  max-height: 150px;
+}
 
 .logo {
   grid-column: 1 / 2;
