@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+  background: linear-gradient(45deg, #f7f7f7 0%, #eae0d5 100%);
 }
 
 
@@ -14,12 +14,6 @@ body {
   background: linear-gradient(to right, #3a6073, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #fff;
 }
-
-/*.box .box {
-		background-color: #ccc;
-		color: #444;
-    text-align: right;
-}*/
 
 
 
@@ -88,7 +82,7 @@ img.cover {
 }
 
 @media only screen and (min-width: 500px) {
-  .wrapper{
+  .wrapper {
     grid-template-columns: 20% auto;
     grid-template-areas:
     "header header"
