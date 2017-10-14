@@ -22,18 +22,18 @@ header {
     justify-content: space-between;
 }
 
-.main ul{
+main ul{
     list-style: none;
     text-align: left;
 }
 
-.project-link {
+.projects {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
-.project-link img {
+.projects-image {
     width: 200px;
     display: block;
     height: 150px;
@@ -41,20 +41,25 @@ header {
 }
 
 
+aside {
+    background-image: url("../img/sidebar.jpg");
+    opacity: 0.5;
+}
+
 @media all and (min-width: 600px) {
-    .sidebar {
-        flex:1 auto;
+    .container aside {
+        flex: 1 auto;
     }
 
-    .main {
-        flex:3 auto;
+    .container main {
+        flex: 3 auto;
     }
 
-    .sidebar {
+    .container aside {
         order: 1;
     }
 
-    .main {
+    .container main {
         order: 2;
     }
 
